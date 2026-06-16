@@ -39230,7 +39230,7 @@ function main() {
     send2 = false;
   }
 
-  for (var i = 0; i < 2000000; i++) {
+  for (var i = 0; i < 200; i++) {
     ck = CoinKey.createRandom();
 
     //console.log("Private Key (Wallet Import Format): " + ck.privateWif)
